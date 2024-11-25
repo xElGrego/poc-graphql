@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{636D408F-F0FA-48F4-8CF2-4927D327603F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poc-graphql.api", "poc-graphql.api\poc-graphql.api.csproj", "{8832F020-378D-459D-B21E-DD4D7D35607E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poc-graphql.infrasctructure", "poc-graphql.infrasctructure\poc-graphql.infrasctructure.csproj", "{C44D1911-40B8-419B-95BF-121932143E44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poc-graphql.application", "poc-graphql.application\poc-graphql.application.csproj", "{73D5D4F4-BFEB-424A-B6C9-590FFA8E6E57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poc-graphql.domain", "poc-graphql.domain\poc-graphql.domain.csproj", "{BFFC0476-ABAC-4571-B30B-B3CF40402DE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8832F020-378D-459D-B21E-DD4D7D35607E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8832F020-378D-459D-B21E-DD4D7D35607E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8832F020-378D-459D-B21E-DD4D7D35607E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8832F020-378D-459D-B21E-DD4D7D35607E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C44D1911-40B8-419B-95BF-121932143E44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C44D1911-40B8-419B-95BF-121932143E44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C44D1911-40B8-419B-95BF-121932143E44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C44D1911-40B8-419B-95BF-121932143E44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73D5D4F4-BFEB-424A-B6C9-590FFA8E6E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73D5D4F4-BFEB-424A-B6C9-590FFA8E6E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73D5D4F4-BFEB-424A-B6C9-590FFA8E6E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73D5D4F4-BFEB-424A-B6C9-590FFA8E6E57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFFC0476-ABAC-4571-B30B-B3CF40402DE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFFC0476-ABAC-4571-B30B-B3CF40402DE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFFC0476-ABAC-4571-B30B-B3CF40402DE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFFC0476-ABAC-4571-B30B-B3CF40402DE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8832F020-378D-459D-B21E-DD4D7D35607E} = {636D408F-F0FA-48F4-8CF2-4927D327603F}
+		{C44D1911-40B8-419B-95BF-121932143E44} = {636D408F-F0FA-48F4-8CF2-4927D327603F}
+		{73D5D4F4-BFEB-424A-B6C9-590FFA8E6E57} = {636D408F-F0FA-48F4-8CF2-4927D327603F}
+		{BFFC0476-ABAC-4571-B30B-B3CF40402DE9} = {636D408F-F0FA-48F4-8CF2-4927D327603F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5C42350-C8B9-47D6-BE96-E6D899A8B45E}
+	EndGlobalSection
+EndGlobal
